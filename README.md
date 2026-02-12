@@ -1,48 +1,34 @@
 # Hi, I'm Austin 👋
 
-📍 San Francisco | Senior Software Engineer | Building AI agents and the infrastructure to run them
+📍 San Francisco | 🤖 Building AI agents | 🎯 Making LLMs do real work
 
-`Claude SDK` `MCP` `React` `TypeScript` `Python` `FastAPI` `PostgreSQL` `AWS` `Kubernetes`
+`Claude SDK` `MCP` `TypeScript` `Python` `React` `FastAPI` `Kubernetes`
 
-Currently architecting agentic platform infrastructure at [Zywave](https://www.zywave.com/ai/) — semantic APIs, MCP servers, observability, and rate-limiting for production-scale LLM integration serving 100K+ weekly users.
-
-Previously shipped real-time visualization for DARPA's JADC2 program (F-22/F-35 sensor fusion, <100ms latency) — won Phase 2 with Lockheed Martin over Northrop Grumman.
+Senior Engineer at [Zywave](https://www.zywave.com/ai/) — shipping agentic infrastructure for 100K+ users. Previously won a DARPA Phase 2 contract (Lockheed > Northrop) building real-time F-22/F-35 sensor fusion.
 
 ---
 
-### What I'm Building
+### Experiments
 
-🌐 **Browser Agent** — Teaching Claude to browse via deterministic primitives. The LLM decomposes tasks into navigate/click/fill/extract actions, then workflows replay at $0 cost.
+🌐 **Browser Agent** — Claude + Playwright. Decompose tasks into primitives, replay workflows at $0.
 
-🎯 **Deterministic LLM Execution** — You can't make LLMs deterministic, but you can make *workflows* deterministic. Exploring reproducibility and auditability for AI systems.
+🎯 **Deterministic Workflows** — LLMs are random. Workflows don't have to be.
 
-⚡ **Async Job Infrastructure** — Background processing for slow, unpredictable AI workloads. Heartbeat monitoring, retry with backoff, graceful cancellation.
+⚡ **Job Queue** — Heartbeats, retries, graceful cancellation for slow AI tasks.
 
-🎨 **Agent UI Primitives** — Minimal visual vocabulary for agent-human communication. 7 primitives: Pulse, Fruit, Yield, Lever, Murmur, Ask, Control.
+🎨 **Agent Primitives** — 7 UI components for agent-human handoffs.
 
-🚀 **Dynamic Agent Runtime** — Deploy agents as web apps through config alone. Dynamic UI rendering, job polling, rate limiting per tier.
+🚀 **App Runtime** — Deploy any agent as a web app via config.
 
-💬 **Contextual Chat** — @mention dashboard data to ask Claude about it. Context injection = prompt engineering with a nice UI.
-
----
-
-### What I Think About
-
-**Cost at scale** — LLMs are expensive. Caching decisions, replaying workflows, routing to smaller models. At 100K+ users, every token matters.
-
-**Agent UX** — Chat is too slow for ops, dashboards are too static for AI. What's the right interface when the computer can actually *do* things?
-
-**Production reliability** — Agents fail in weird ways. Building systems that degrade gracefully, explain their reasoning, and let humans intervene.
+💬 **@Mentions** — Point at data, ask Claude about it.
 
 ---
 
 ### Background
 
-- **Zywave** — Senior Engineer, architecting AI platform for 15,000 insurance agencies
-- **SoSACorp (DARPA)** — Real-time sensor fusion for military command systems
-- **Gregory Funding** — Automated $50M/year in mortgage operations, grew portfolio 53% with no new hires
+Accounting degree → self-taught engineer → 6 years shipping production systems
 
-BS Accounting, University of Oregon → Self-taught engineer → 6 years shipping production systems
+Automated $50M/year mortgage ops. Built defense software. Now building AI platforms.
 
 ---
 
